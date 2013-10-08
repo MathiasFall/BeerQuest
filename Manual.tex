@@ -1,0 +1,307 @@
+\documentclass{article}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{a4paper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage[utf8]{inputenc}	
+\usepackage[danish]{babel}
+\usepackage{epstopdf}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\title{Beer Quest II: Bryggerens Eventyr}
+\author{Regelsæt og/eller Opslagsværk
+\\ \\ Version 1.3.dat}              
+\date{}                            
+
+\begin{document}
+\maketitle
+
+\begin{center}
+Original idé og design af Mikkel Wettergren og Simon Lars Gustav Andresson \\
+Revideret med tilladelse af Pelle Juul og Mathias Fall
+\end{center}
+
+\tableofcontents
+\pagebreak
+
+\section{Spillets mål}
+
+\subsection{Spillets start}
+ 
+Start med at afgøre hvilken spiller der starter spillet – det er den der har mest alkohol med (hvis spillet spilles på en bar eller andre steder hvor egen alkohol ikke medbringes, er det den spiller der har flest kontanter på sig).\\
+Hver spiller vælger en spillebrik, som placeres på startfeltet. Brikkerne rykkes i urets retning, ligesom spillernes ture gør det. 
+
+\subsection{Spillets udfoldelse}
+
+Man rykker det antal øjne som terningen viser (med mindre dine Højereordensudstyr siger andet (se Højereordensudstyr)) og følger konsekvenserne af de felter man lander på (se Felter).
+\\ Hver gang man passerer start har man mulighed at besøge den lokale udstyrsbutik. Her kan man enten købe en ny Højereordensudstyr eller opgradere det udstyr man allerede ejer. \\ Det koster 2 tåre at købe udstyr i rang 1 og henholdsvis 4 og 8 tårer for for at opgradere til rang 2 og 3 (dog koster det 3/6/9 tårer ved køb af af unikt udstyr).
+
+\subsection{Spillets afslutning}
+
+ Spillet slutter når en person med 3 Højereordensudstyr i rang 3 passerer start. Alle andre er tabere. 
+
+\section{Spiltyper}
+ 
+  Alternativt kan der vælges en anden spiltype. Disse er defineret nedenfor
+ 
+\subsection{Klasser}
+Fra spillets start slår hver spiller med terningen. Hver klasse har et nummer fra 1 til 6 og således afgøres hvilken klasse man spiller (Se Klasser).
+ 
+\subsection{To Spillere}
+Man drikker kun 50\% tårer.
+Sylespids Rustning er ikke med i spillet.
+  
+\subsection{Kort Spil 1}
+Hver spiller starter med 1 til 2 Højereordensudstyr (dog ikke Magnet).
+
+\subsection{Kort Spil 2}
+For at spillet afsluttes, behøves kun 2 Højereordensudstyr i rang 3
+
+\pagebreak
+
+\section{Højreordensudstyr}
+Udstyrsbutikken har et stort udvalg af Højereordensudstyr. Vælg med omhu; du må højst købe 3  forskellige
+ 
+\subsection{Støvler}
+Når man slår om, hvor langt man må rykke, giver Støvler dig mulighed for at rykke længere hvis du slår en 5’er eller 6’er.
+
+\begin{itemize}
+	\item Nike sko (rang 1): 6'er giver +1 fart.
+	\item Rulleskøjter (rang 2): 6'er giver +2 fart
+	\item Månestøvler (rang 3): 5'er eller 6'er +2 fart
+\end{itemize}
+ 
+\subsection{Skjold}
+Hvis du skal drikke, har du en chance for at reducere antallet af tårer. Man slår med terningen, 3 eller derunder har ingen effekt, 4 eller derover udløser effekten. Virker dog kun én gang per tur (hver gang den næste spillers tur starter).
+
+\begin{itemize}
+	\item Deku/DIKU skjold (rang 1): 50\% chance for -1 tåre.
+	\item Tower skjold (rang 2): 50\% chance for -2 tåre.
+	\item Xzarons mur (rang 3): 50\% chance for -4 tåre.
+\end{itemize}
+ 
+\subsection{Våben} Hvis du lander på et giv-tårer-felt, eller slår en 3’er eller 4’er på spørgsmålstegnfeltet, forøges det antal tårer du må give. I rang 3 forøges antal tårer givet af andre Højereordensudstyr, dog ikke Sylespids rustning, med 1.
+
+\begin{itemize}
+	\item Pistol (rang 1): +1 tår ved offensiv.
+	\item Maskinpistol (rang 2): +2 tåre ved offensiv.
+	\item Bazooka (rang 3): +3 tåre ved offensiv, +1 tår ved andre udstyrseffekter.
+\end{itemize}
+ 
+\subsection{Magnet}
+Når man overhaler/overhales (alt efter rangen) rykkes spillebrikken fremad. En overhaling er, når en spillebrik har passeret det felt man står på.
+
+\begin{itemize}
+	\item Køleskabsmagnet (rang 1): Når man overhaler andre, +1 fart.
+	\item Den fra Diddy Kong Racing (rang 2): Når man overhales, +1 fart.
+	\item Pussy Magnet (rang 3): Når man overhales, +2 fart.
+\end{itemize}
+ 
+\subsection{Sylespids Rustning}
+Når du skal drikke, skal dine modstandere også drikke. Andre Højereordensudstyr kan ikke forøge antallet af tårer. Dog er der en række undtagelser, hvor rustningen ikke virker: Ved Sten-saks-papir (duel og kollektiv), når der betales for nyt Højereordensudstyr i udstyrsbutikken, eller når man køber fra Ejendomsmæglerfeltet. Rustningens effekt hopper ikke videre (hvis en spiller x med Rustning får en tår af en anden spiller y med Rustning, stopper effekten ved spiller y, for at undgå en uendelig løkke). 
+
+\begin{itemize}
+	\item Læder med pigge (rang 1): Giv 1 tår til højre når du skal drikke.
+	\item Pindsvinehår (rang 2): Giv 1 tår til højre og venstre når du skal drikke.
+	\item Rustning med spyd (rang 3): Giv 2 tåre til højre og venstre når du skal drikke.
+\end{itemize}
+ 
+\subsection{Narrestregsmester}
+Når en modspiller lander på det felt, som du står på, eller feltet bagved dig (gælder også når du selv lander på samme felt eller feltet foran en modstander), skal han drikke og rykke tilbage. 
+
+\begin{itemize}
+	\item Aben glor (rang 1): Giv 1 tår og ryk 1 felt tilbage.
+	\item Lugt-til-blomst-prank (rang 2): Giv 2 tårer og ryk 2 felter tilbage.
+	\item Lyve i Mejer (rang 3): Giv 3 tårer og ryk 3 felter tilbage.
+\end{itemize}
+ 
+\subsection{Skat (unik)}
+Hver gang du passerer start, må du give tårer til dine modspillere (tårene må godt splittes op). At denne Højereordensudstyr er unik betyder, at kun én spiller kan købe den.
+
+\begin{itemize}
+	\item Taber lottokupon (rang 1): Hver gang start passeres, giv 5 tåre
+	\item Rentestigning (rang 2): Hver gang start passeres tager alle andre 4 tåre.
+	\item Topskat (rang 3): Hver gang start passeres, tager alle andre tager en tår for hver Højereordensudstyr (i rang n) de har. F.eks. hvis en spiller har Højereordensudstyr x i rang n og Højereordensudstyr y i rang m, tager han tåre svarende til n+m + antallet af Højereordensudstyr.
+\end{itemize}
+ 
+\subsection{Fartbøder (unik)}
+Når en modspiller slår om hvor langt han må rykke, kan han risikere at drikke. Det er kun indehaveren af Fartbøder der kan uddele tårene (hvis en anden spiller gør indehaveren opmærksom på det, er det mega dårlig stil). At denne Højereordensudstyr er unik betyder, at kun én spiller kan købe den. 
+ 
+\begin{itemize}
+	\item Begmand (rang 1): Hvis en person rykker 6 eller derover tager han 1 tår.
+	\item Klip i kørekort (rang 2): Hvis en person rykker 6 eller derover tager han 2 tårer.
+	\item Omvendt kapløb (rang 3): Hvis en person rykker 6 eller derover tager han 50\% af hans fart (der rundes op).
+\end{itemize}
+
+\subsection{Genvej}
+På spillebrættet er der en række genveje, som må benyttes hvis denne Højereordensudstyr ejes. 
+
+\begin{itemize}
+	\item Smutvej (rang 1): Må benytte sig af rang 1-genveje.
+	\item Bug i Wariobanen (rang 2): Må benytte sig af rang 2-genveje.
+	\item Bjergbestiger (rang 3): Må benytte sig af rang 3-genveje.
+\end{itemize}
+ 
+\subsection{Borg}
+Når du befinder dig i Borg-området på spillebrættet reduceres antallet af tårer du skal drikke (fra alle kilder) imens antallet af tårer du må give forøges.
+
+\begin{itemize}
+	\item Hoppeborg (rang 1): Reducerer modtagne tårer med 1, forøger tårer der gives med 1.
+	\item Rosenborg slot (rang 2): Reducerer modtagne tårer med 1, forøger tårer der gives med 2.
+	\item Iskronens fæstning(rang 3): Reducerer modtagne tårer med 1, forøger tårer der gives med 3. Borg-området omfatter nu ét felt mere (se spillebrættet).
+\end{itemize}
+
+\section{DiMS'er}
+
+\subsection{Bananskræl} 
+Bananskrællen placeres på det felt man står på, men kan gemmes til senere brug (kan dog kun bruges når det er din tur). Den første der passerer feltet ”falder” (mister resten af sit fart).
+ 
+\subsection{Brækburger} 
+Bliver placeret med det samme på det felt, du står på. Den første der passerer (inklusiv dig selv), tager 3 tårer.
+ 
+\subsection{Kviksand} 
+Når dette kort trækkes, vælger du en spiller. Den valgte spiller har kun 50\% fart næste tur.
+ 
+\subsection{Lykkemønt} 
+Næste tur slår du minimum 4.
+ 
+\subsection{Lån Bisses bodyguard} 
+Du tager ikke konsekvensen af næste negative effekt – dvs. tårer og andre DiMS'er som f.eks. bananskræl.
+ 
+\subsection{Herre tørstig}
+Du drikker dobbelt næste gang du skal drikke.
+ 
+\subsection{Næsekort} 
+Det eneste kort der ikke er afhængigt af ture. En spiller kan på et vilkårligt tidspunkt røre sin næse med sin finger. Den sidste spiller der efteraber dette skal drikke 3 tårer.
+ 
+\subsection{Red Bull} 
+Efter du har slået om, hvor langt du må rykke, kan du bruge dette kort til at rykke yderligere 2 felter frem.
+ 
+\subsection{Professor Oak} 
+Gratis Højereordensudstyrs-opgradering. Hvis du ikke har en Højereordensudstyr – eller kun Højereordensudstyr i rang 3, kan du ikke få hjælp af Professor Oak.
+ 
+\subsection{Sabotage} 
+Dit Højereordensudstyr virker ikke de næste 2 runder.
+ 
+\subsection{Sats alt på sort} 
+Når du trækker dette kort skal du slå med terningen. Slår du 3 eller derunder, mister du din næste tur, slår du 4 eller derover, får du et ekstra slag ved din næste tur (effekten af det første felt gælder dog stadig). 
+ 
+\subsection{Ups, bakgear} 
+Dit næste slag rykker dig baglæns i stedet.
+ 
+\subsection{Sympati} 
+Næste gang du giver tåre skal du drikke det samme selv.
+ 
+\subsection{Ombytning} 
+Du skal bytte plads med en anden spillebrik (skal bruges med det samme).
+ 
+\subsection{Fodvabler} 
+Næste tur skal du drikke tårer der svarer til den afstand, du rykker.
+ 
+\subsection{Ølsko} 
+Næste tur må du give tårer der svarer til den afstand, du rykker.
+ 
+\subsection{Advokat} 
+Giver 3 beskyttelsespoint. Disse absorberer de 3 næste tårer du skal drikke.
+ 
+\subsection{Snyd med falsk fest} 
+Næste gang man giver en person tårer, skal han rykke 50\% af antal tårer tilbage.
+ 
+\subsection{Den der fra Mario Kart} 
+Den spiller der har rykket flest felter skal rykkes 3 felter tilbage.
+ 
+\subsection{BMX uden cykelhjelm} 
+Slå med terningen og tag det antal tåre som øjnene viser.
+ 
+
+\section{Felter}
+På spillebrættet finder man en række forskellige felter. Her følger en beskrivelse af hver enkelt felt og dets betydning.
+ 
+\subsection{DiMS}
+Lander en spiller på et DiMS felt, skal han trække et DiMS kort fra bunken. DiMS'er kan variere i effekt og kan være særdeles hjælpsomme – dog kan de være tilsvarende hæmmende!
+ 
+\subsection{Sten-Saks-Papir (Duel)}
+Den der lander på dette felt skal i duel med en modspiller af eget valg. Duellen afgøres over fem runders sten-saks-papir: Hver tabt runde svarer til én tår.
+ 
+\subsection{Sten-Saks-Papir (Kollektivt)}
+Hvis en spiller lander på dette felt skal alle spillerne i en kollektiv Sten-Saks-Papir-kamp i tre runder. I hver runde straffes hver individuel spiller med et antal tåre, svarende til antallet af spillere man bliver slået af.
+ 
+\subsection{Vandfald}
+Klassisk vandfald for alle spillere. Har man ikke nok øl tilbage må man åbne en ny.
+ 
+\subsection{7-tabel/Kategorifelt}
+På dette felt må spilleren vælge mellem to spil: 7-tabel eller kategori. Taberen tager 5 tårer.
+ 
+\subsection{Spørgsmålstegnfelter}
+Et felt hvis effekt kan variere. Spilleren slår med terningen og lader hermed skæbnen bestemme:
+\begin{enumerate}
+	\item Tag 4 tårer.
+	\item Tag 2 tårer.
+	\item Giv 2 tårer.
+	\item Giv 4 tårer.
+	\item Træk et DiMS kort.
+	\item Lav en regel. Regler skal være gældende for alle (må ikke være "spiller x drikker dobbelt fra nu af"). Man kan som alternativ, vælge en regel fra afsnittet "Ekstra regler"
+\end{enumerate}
+ 
+\subsection{Ejendomsmæglerfelt}
+Man køber et felt (kan være alle felter). Hvis nogen lander her skal de drikke 3 tårer (effekten af feltet gælder stadig). Koster 3 tårer.
+ 
+\subsection{Ekstra Slag}
+Man må slå et ekstra slag. Magnet og Støvler virker ikke.
+
+\section{Klasser}
+ 
+\subsection{Slyngel}
+\begin{itemize}
+	\item Tyveknægt: Hvis en modspiller har et DiMS kort, kan man vælge at forsøge at stjæle det. Det gøres ved at slå med terningen: Slår 5 eller 6 lykkes det, gør man ikke, bliver man ramt af Kviksand effekten (Se DiMS'er).
+	\item Skattejæger: Træk to DiMS'er på hvert DiMS felt.
+\end{itemize}
+ 
+\subsection{Ingeniør}
+\begin{itemize}
+	\item Nitro Støvler: Hver gang start passeres kan han på ét valgt slag rykke et ekstra felt.
+	\item Ingeniørkunst: Det koster kun halvt så meget at købe Højereordensudstyr.
+\end{itemize}
+
+\subsection{Præstinde}
+\begin{itemize}
+	\item Frelse : Hver gang man passerer start får man to beskyttelsespoint.
+	\item Guds Nåde: Hver gang start passeres kan man på ét valgt slag slå om igen. + man skal synge Duffy – Mercy.
+\end{itemize}
+ 
+\subsection{Spejder}
+\begin{itemize}
+	\item Udholdenhed: Hvis man slår en 1’er må man rykke som hvis man slog en 2’er.
+	\item Blokade: Hver gang man passerer start placeres en blokade på startfeltet som varer indtil det igen er spejderens tur. Blokaden forhindrer modspillere i at passere startfeltet.
+\end{itemize}
+ 
+\subsection{Styg Heks}
+\begin{itemize}
+	\item Svækkelsens Forbandelse: Kan bruges én gang hver gang start passeres. Man vælger en modspiller der skal rammes af forbandelsen indtil det igen bliver heksens tur. Effekten af forbandelsen er, at den forbandede spiller skal tage en tår ekstra hver gang han ellers skal drikke.
+	\item Afstraffelse: Hvis en modspiller skal drikke 5 tårer eller derover skal han tage en ekstra tår.
+\end{itemize}
+ 
+\subsection{Alkymist}
+\begin{itemize}
+	\item Giftsky: Hver gang man passerer start skal alle andre drikke 1 tår per tur indtil nogen giver Alkymisten en tår.
+	\item Jorden er giftig: Hvis en modspiller lander på et Tag 3 tårer felt skal de tage 4 tårer.
+\end{itemize}
+ 
+\subsection{Ragnarökvogter}
+\begin{itemize}
+	\item Fenrisulven: Hver tur må man give 10 tårer. Hvis nogen er immun må han give ham 5.
+	\item X-treme BMX: Man må få en cykel.
+\end{itemize}
+ 
+\subsection{Mystisk Fugl}
+\begin{itemize}
+	\item Vær venlig ikke at fodre fuglen: Hver gang start paseres bliver han immun til at drikke I 5 runder.
+	\item Flyve: Kan flyve til et valgt felt. Koster dog 10 tårer, men immunity virker også her.
+\end{itemize}
+
+
+
+
+\end{document}  
